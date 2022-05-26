@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+/* caixa wrapper contorna todo o código */
+.wrapper {
+    max-width: 100vw;
+    max-height: 100vh;
+
+}
+
+
+/* configuração do lado esquerdo da página  */
+
+.box-left {
+    width: 60%;
+    display: inline-block;
+
+}
+
+.text-left {
+    position: relative;
+    top: 416px;
+    left: 70px;
+}
+
+h1 {
+    width: 368px;
+    height: 160px;
+    font-size: 70px;
+    line-height: 80px;
+    color: #5D5D7D;
+}
+
+p {
+    width: 540px;
+    height: 144px;
+    font-size: 28px;
+    line-height: 48px;
+    opacity: 0.6;
+
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    cursor: pointer;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+}
+
+
+
+
+
+
+/* configuração do lado direito da página */
+
+
+.box-right {
+    display: inline-block;
+    background: rgba(93, 93, 125, 0.16);
+    height: 901px;
+    width: 40%;
+    position: absolute;
+
+
+}
+
+header {
+    font-size: 28px;
+    line-height: 41px;
+    color: #5D5D7D;
+    margin: 24px 0px 0 54px;
+
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 41px;
+}
+
+
+img {
+    width: 491px;
+    height: 420px;
+    position: relative;
+    top: 25%;
+    right: 170px;
+}
+
+
+/* responsividade */
+
+@media (max-width: 1115px) {
+
+    /* configurações do lado esquerdo da tela */
+    h1 {
+        font-size: 60px;
+        margin-left: 55px;
+        margin-top: 400px;
+    }
+
+    p {
+        width: 382px;
+        height: 144px;
+        font-size: 20px;
+        line-height: 43px;
+
+    }
+
+    button {
+        margin-left: 55px;
+    }
+
+    .text-left {
+        position: relative;
+        top: 15px;
+        left: 70px;
+    }
+
+    .box-left {
+        width: 55%;
+        display: inline-block;
+    }
+
+
+
+    /* configurações do lado direito da tela */
+    a {
+        margin-right: 19px;
+    }
+
+    .box-right {
+        width: 45%;
+    }
+
+
+}
+
+@media (max-width: 1000px) {
+
+    /* configurações do lado esquerdo da tela */
+    h1 {
+        font-size: 44px;
+        margin-left: 10px;
+        margin-top: 405px;
+        width: 229px;
+    }
+
+    p {
+        width: 296px;
+        height: 178px;
+        font-size: 16px;
+        line-height: 43px;
+
+    }
+
+    button {
+        width: 250px;
+        margin-left: 1px;
+    }
+
+    .text-left {
+        position: relative;
+        top: 15px;
+        left: 70px;
+    }
+
+    .box-left {
+        width: 50%;
+        display: inline-block;
+    }
+
+
+
+    /* configurações do lado direito da tela */
+    a {
+        margin-right: 19px;
+    }
+
+    .box-right {
+        width: 50%;
+    }
+
+
+}
+
+@media (max-width: 920px) {
+
+    /* configurações do lado esquerdo da tela */
+    h1 {
+        font-size: 44px;
+        margin-left: 10px;
+        margin-top: 405px;
+        width: 229px;
+    }
+
+    p {
+        width: 296px;
+        height: 178px;
+        font-size: 16px;
+        line-height: 43px;
+
+    }
+
+    button {
+        margin-bottom: 10vh;
+    }
+
+    .text-left {
+
+        position: relative;
+        padding-left: 31vw;
+    }
+
+    .box-left {
+        width: 92%;
+        display: block;
+    }
+
+
+
+    /* configurações do lado direito da tela */
+    a {
+        margin-right: 19px;
+    }
+
+    .box-right {
+        width:98vw;
+    }
+
+    img {
+        position: absolute;
+    }
+
+    header {
+        padding-left: 50vw;
+    }
+
+}
+
+@media (max-width: 830px) {
+
+
+
+    /* configurações do lado direito da tela */
+    a {
+        margin-right: 19px;
+    }
+
+    .box-right {
+        width:98vw;
+    }
+
+    img {
+        position: absolute;
+    }
+
+    header {
+        display:none;
+    }
+
+}
+
+@media (max-width: 760px) {
+
+
+
+    /* configurações do lado direito da tela */
+    a {
+        margin-right: 19px;
+    }
+
+    .box-right {
+        width:98vw;
+        padding-left:110vw ;
+    }
+
+    img {
+        position: absolute;
+    }
+
+    header {
+        display:none;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    /* configurações do lado esquerdo da tela */
+    
+
+    .text-left {
+
+        
+        padding-left: 31vw;
+    }
+
+    .box-left {
+        width: 92%;
+        display: block;
+    }
+
+
+
+    /* configurações do lado direito da tela */
+    a {
+        margin-right: 19px;
+    }
+
+    .box-right {
+        width:98vw;
+        padding-left:120vw;
+    }
+
+    img {
+        position: absolute;
+    }
+
+    header {
+        display:none;
+    }
+
+}
+
+@media (max-width: 414px) {
+
+/* configurações do lado esquerdo da tela */
+
+
+
+
+
+
+.text-left {
+
+    position: relative;
+    padding-left: 10vw;
+}
+
+
+
+
+    /* configurações do lado direito da tela */
+    a {
+        margin-right: 19px;
+    }
+
+    .box-right {
+        width:98vw;
+        padding-left: 119vw;
+    }
+
+    img {
+        position: absolute;
+        width: 70vw;
+        height: 35vh;
+    }
+
+    header {
+        display:none;
+    }
+
+}
+@media (max-width: 375px) {
+
+/* configurações do lado esquerdo da tela */
+
+
+
+
+
+
+.text-left {
+
+    position: relative;
+    padding-left: 10vw;
+}
+
+
+
+
+    /* configurações do lado direito da tela */
+    a {
+        margin-right: 19px;
+    }
+
+    .box-right {
+        width:98vw;
+        padding-left: 146vw;
+        
+    }
+
+    img {
+        position: absolute;
+        width: 94vw;
+        height: 41vh;
+    }
+
+    header {
+        display:none;
+    }
+
+}
+
